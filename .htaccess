@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^liquorfreemadhyapradesh.com/
+RewriteRule (.*) http://www.liquorfreemadhyapradesh.com/[R=301]
+RewriteCond %{HTTP_HOST} ^liquorfreemadhyapradesh.com$
+RewriteRule ^/?$ "http\:\/\/www\.liquorfreemadhyapradesh\.com\/" [R=301,L]
+
